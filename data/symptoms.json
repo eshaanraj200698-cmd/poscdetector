@@ -1,0 +1,524 @@
+[
+  {
+    "_id": "symp_irregular_cycles",
+    "key": "irregular_cycles",
+    "label_en": "Irregular menstrual cycles",
+    "category": "menstrual",
+    "synonyms": {
+      "en": [
+        "irregular periods",
+        "late periods",
+        "cycle delay",
+        "unpredictable cycle",
+        "long cycles",
+        "missed dates",
+        "oligomenorrhea",
+        "period comes whenever it wants",
+        "delayed menses",
+        "cycle irregular hai",
+        "periods late ho rahe hain",
+        "date aage piche ho rahi hai"
+      ],
+      "hi": [
+        "पीरियड्स लेट हो रहे हैं",
+        "डेट आगे पीछे हो जाती है",
+        "डेट मिस हो गई",
+        "पीरियड्स टाइम पर नहीं आते",
+        "महीना चढ़ जाता है",
+        "पीरियड आगे पीछे होते हैं",
+        "कभी 40 दिन तो कभी 50 दिन में आते हैं",
+        "डेट पर नहीं आता",
+        "पीरियड लेट आना",
+        "अनियमित माहवारी"
+      ],
+      "kn": [
+        "ಮುಟ್ಟು ತಡವಾಗ್ತಿದೆ",
+        "ಡೇಟ್ ಮುಂದೆ ಹೋಗ್ತಿದೆ",
+        "ಪಿರಿಯಡ್ಸ್ ಕರೆಕ್ಟ್ ಆಗಿ ಆಗ್ತಿಲ್ಲ",
+        "ಮುಟ್ಟು ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಬರಲ್ಲ",
+        "ಮುಟ್ಟು ಇರೆಗ್ಯುಲರ್ ಆಗಿದೆ",
+        "ತಿಂಗಳು ಸರಿಯಾಗಿ ಮುಟ್ಟಾಗಲ್ಲ",
+        "ಅನಿಯಮಿತ ಮುಟ್ಟು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_thyroid", "cond_hyperprolactinemia"]
+  },
+  {
+    "_id": "symp_missed_periods_amenorrhea",
+    "key": "missed_periods_amenorrhea",
+    "label_en": "Absent or stopped periods (amenorrhea)",
+    "category": "menstrual",
+    "synonyms": {
+      "en": [
+        "missed period for months",
+        "stopped menstruating",
+        "no periods for 3 months",
+        "amenorrhea",
+        "no period for 6 months",
+        "periods vanished",
+        "havent got period",
+        "periods have stopped"
+      ],
+      "hi": [
+        "पीरियड्स आने बंद हो गए",
+        "दो तीन महीने से पीरियड नहीं आया",
+        "काफी टाइम से डेट नहीं आई",
+        "3 महीने से पीरियड्स गायब हैं",
+        "पीरियड्स रुक गए हैं",
+        "दो महीने से डेट नहीं आई"
+      ],
+      "kn": [
+        "ಎರಡು ಮೂರು ತಿಂಗಳಿಂದ ಮುಟ್ಟೇ ಆಗಿಲ್ಲ",
+        "ಪಿರಿಯಡ್ಸ್ ಪೂರ್ತಿ ನಿಂತುಹೋಗಿದೆ",
+        "ಎಷ್ಟೋ ದಿನದಿಂದ ಡೇಟ್ ಆಗಿಲ್ಲ",
+        "ಮುಟ್ಟು ನಿಂತಿದೆ",
+        "ಮೂರು ತಿಂಗಳಿಂದ ಮುಟ್ಟಾಗಿಲ್ಲ"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_hyperprolactinemia"]
+  },
+  {
+    "_id": "symp_heavy_bleeding",
+    "key": "heavy_bleeding",
+    "label_en": "Heavy menstrual bleeding",
+    "category": "menstrual",
+    "synonyms": {
+      "en": [
+        "heavy bleeding",
+        "heavy flow",
+        "blood clots in period",
+        "soaking multiple pads",
+        "menorrhagia",
+        "bleeding heavily",
+        "clots coming out"
+      ],
+      "hi": [
+        "बहुत ज्यादा ब्लीडिंग हो रही है",
+        "खून बहुत ज्यादा बह रहा है",
+        "पीरियड्स में खून के थक्के आ रहे हैं",
+        "पैड बहुत जल्दी भर जाता है",
+        "ब्लीडिंग संभल नहीं रही",
+        "हैवी फ्लो रहता है"
+      ],
+      "kn": [
+        "ಹೆವಿ ಬ್ಲೀಡಿಂಗ್ ಆಗ್ತಿದೆ",
+        "ತುಂಬಾ ರಕ್ತ ಹೋಗ್ತಿದೆ",
+        "ಪ್ಯಾಡ್ ಬೇಗ ನೆನೆಯುತ್ತೆ",
+        "ದೊಡ್ಡ ರಕ್ತದ ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆ",
+        "ಅತಿಯಾದ ರಕ್ತಸ್ರಾವ"
+      ]
+    },
+    "linked_conditions": ["cond_endometriosis", "cond_thyroid", "cond_pcos"]
+  },
+  {
+    "_id": "symp_frequent_periods",
+    "key": "frequent_periods",
+    "label_en": "Very frequent periods (polymenorrhea)",
+    "category": "menstrual",
+    "synonyms": {
+      "en": [
+        "periods too frequent",
+        "period every 15 days",
+        "bleeding twice a month",
+        "short menstrual cycle"
+      ],
+      "hi": [
+        "महीने में दो बार पीरियड्स आ जाते हैं",
+        "हर पंद्रह दिन में ब्लीडिंग शुरू हो जाती है",
+        "बहुत जल्दी जल्दी डेट आ जाती है"
+      ],
+      "kn": [
+        "ತಿಂಗಳಿಗೆ ಎರಡು ಬಾರಿ ಮುಟ್ಟಾಗುತ್ತೆ",
+        "ಹದಿನೈದು ದಿನಕ್ಕೊಮ್ಮೆ ಬ್ಲೀಡಿಂಗ್ ಆಗುತ್ತೆ",
+        "ಬೇಗ ಬೇಗ ಮುಟ್ಟು ಬರ್ತಿದೆ"
+      ]
+    },
+    "linked_conditions": ["cond_thyroid", "cond_pcos"]
+  },
+  {
+    "_id": "symp_hirsutism",
+    "key": "hirsutism",
+    "label_en": "Excess facial or body hair (Hirsutism)",
+    "category": "androgenic",
+    "synonyms": {
+      "en": [
+        "facial hair",
+        "chin hair",
+        "hair on jawline",
+        "upper lip hair",
+        "chest hair",
+        "belly hair",
+        "coarse dark hair",
+        "hirsutism",
+        "mustache hair",
+        "beard like hair"
+      ],
+      "hi": [
+        "ठोड़ी पर बाल आ रहे हैं",
+        "चिन पर मोटे बाल",
+        "चेहरे पर दाढ़ी जैसे बाल उग रहे हैं",
+        "अपर लिप पर मोटे बाल",
+        "चेहरे पर बाल बहुत बढ़ गए हैं",
+        "गालों और चिन पर अनचाहे बाल",
+        "ठुड्डी पर मोटे काले बाल"
+      ],
+      "kn": [
+        "ಗಲ್ಲದ ಮೇಲೆ ಕೂದಲು ಬರ್ತಿದೆ",
+        "ಮುಖದಲ್ಲಿ ಗಂಡಸರ ತರ ಕೂದಲು",
+        "ಮೀಸೆ ತರ ಕೂದಲು ಬರ್ತಿದೆ",
+        "ಮುಖದಲ್ಲಿ ಅತಿಯಾದ ಕೂದಲು ಬೆಳೆಯುತ್ತಿದೆ",
+        "ಗಲ್ಲದಲ್ಲಿ ಕೂದಲು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos"]
+  },
+  {
+    "_id": "symp_acne",
+    "key": "acne",
+    "label_en": "Persistent or hormonal acne",
+    "category": "androgenic",
+    "synonyms": {
+      "en": [
+        "acne",
+        "pimples",
+        "cystic acne",
+        "breakouts on jawline",
+        "hormonal breakouts",
+        "deep painful pimples",
+        "stubborn pimples"
+      ],
+      "hi": [
+        "चेहरे पर पिंपल्स नहीं जा रहे",
+        "चिन और जबड़े पर दाने",
+        "मोटे और दर्द भरे पिंपल्स",
+        "कील-मुंहासे ठीक ही नहीं हो रहे",
+        "चेहरे पर फुंसियां निकल रही हैं",
+        "पिंपल्स बहुत ज्यादा हैं"
+      ],
+      "kn": [
+        "ಮುಖದಲ್ಲಿ ಪಿಂಪಲ್ಸ್ ಹೋಗ್ತಾನೇ ಇಲ್ಲ",
+        "ದಪ್ಪ ದಪ್ಪ ಮೊಡವೆಗಳು",
+        "ಗಲ್ಲದ ಮೇಲೆ ಮೊಡವೆ ಜಾಸ್ತಿಯಾಗಿದೆ",
+        "ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುವ ಮೊಡವೆಗಳು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos"]
+  },
+  {
+    "_id": "symp_hair_thinning",
+    "key": "hair_thinning",
+    "label_en": "Scalp hair thinning / hair fall",
+    "category": "androgenic",
+    "synonyms": {
+      "en": [
+        "hair loss",
+        "hair thinning",
+        "widening part",
+        "bald spots",
+        "hair fall from crown",
+        "alopecia",
+        "female pattern baldness",
+        "scalp is visible"
+      ],
+      "hi": [
+        "सिर के बाल बहुत झड़ रहे हैं",
+        "मांग चौड़ी हो रही है",
+        "आगे से सिर खाली लग रहा है",
+        "बाल बहुत ज्यादा पतले हो गए हैं",
+        "कंघी करते ही गुच्छे में बाल गिरते हैं",
+        "बालों का झड़ना रुक नहीं रहा"
+      ],
+      "kn": [
+        "ತಲೆ ಕೂದಲು ಸಿಕ್ಕಾಪಟ್ಟೆ ಉದುರುತ್ತಿದೆ",
+        "ಕೂದಲು ತುಂಬಾ ತೆಳುವಾಗ್ತಿದೆ",
+        "ಮುಂಭಾಗದಲ್ಲಿ ಕೂದಲು ಕಡಿಮೆಯಾಗಿದೆ",
+        "ಬಕ್ಕ ತಲೆಯಂತೆ ಕಾಣುತ್ತಿದೆ"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_thyroid"]
+  },
+  {
+    "_id": "symp_weight_gain",
+    "key": "weight_gain",
+    "label_en": "Unexplained weight gain or difficulty losing weight",
+    "category": "metabolic",
+    "synonyms": {
+      "en": [
+        "weight gain",
+        "belly fat",
+        "hard to lose weight",
+        "sudden weight increase",
+        "gaining weight around stomach",
+        "stubborn weight"
+      ],
+      "hi": [
+        "वजन अचानक बढ़ गया है",
+        "पेट पर चर्बी जम रही है",
+        "वजन कम ही नहीं हो रहा",
+        "डाइट करने पर भी वजन नहीं घट रहा",
+        "पेट बहुत बाहर निकल रहा है",
+        "अचानक वजन बढ़ना"
+      ],
+      "kn": [
+        "ಧಿಡೀರ್ ತೂಕ ಜಾಸ್ತಿ ಆಗ್ತಿದೆ",
+        "ಹೊಟ್ಟೆಯ ಬೊಜ್ಜು ಹೆಚ್ಚಾಗ್ತಿದೆ",
+        "ತೂಕ ಇಳಿಯುತ್ತಲೇ ಇಲ್ಲ",
+        "ದೇಹದ ತೂಕ ಹೆಚ್ಚಾಗುತ್ತಿದೆ"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_thyroid"]
+  },
+  {
+    "_id": "symp_dark_skin_patches",
+    "key": "dark_skin_patches",
+    "label_en": "Dark velvety skin patches (Acanthosis Nigricans)",
+    "category": "metabolic",
+    "synonyms": {
+      "en": [
+        "dark neck",
+        "dark skin folds",
+        "dark underarms",
+        "velvety skin",
+        "acanthosis nigricans",
+        "black patches around neck",
+        "pigmentation on neck"
+      ],
+      "hi": [
+        "गर्दन बहुत काली पड़ गई है",
+        "गर्दन के पीछे कालापन",
+        "बगलों में कालापन",
+        "काले मखमली निशान",
+        "गर्दन साफ करने पर भी काली दिखती है"
+      ],
+      "kn": [
+        "ಕುತ್ತಿಗೆ ತುಂಬಾ ಕಪ್ಪಾಗಿದೆ",
+        "ಕುತ್ತಿಗೆಯ ಸುತ್ತ ಕಪ್ಪು ಕಲೆಗಳು",
+        "ಕಂಕುಳಲ್ಲಿ ಕಪ್ಪು ಕಲೆ",
+        "ಕಪ್ಪಾಗುವುದು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos"]
+  },
+  {
+    "_id": "symp_fatigue",
+    "key": "fatigue",
+    "label_en": "Persistent fatigue / low energy",
+    "category": "general",
+    "synonyms": {
+      "en": [
+        "extreme fatigue",
+        "constant tiredness",
+        "lack of energy",
+        "exhaustion",
+        "lethargy",
+        "feeling drained",
+        "no energy"
+      ],
+      "hi": [
+        "हर वक्त थकान और सुस्ती रहती है",
+        "सुबह उठकर भी थकान लगती है",
+        "शरीर में बिल्कुल जान नहीं लगती",
+        "बिना काम किए भी थक जाती हूं",
+        "बहुत कमजोरी लगना"
+      ],
+      "kn": [
+        "ಯಾವಾಗಲೂ ಸುಸ್ತು ಅನಿಸುತ್ತೆ",
+        "ಏನೂ ಕೆಲಸ ಮಾಡೋಕೆ ಶಕ್ತಿ ಇಲ್ಲ",
+        "ತುಂಬಾ ಆಯಾಸ ಆಗ್ತಿದೆ",
+        "ವಿಪರೀತ ನಿಶ್ಯಕ್ತಿ"
+      ]
+    },
+    "linked_conditions": ["cond_thyroid", "cond_pcos", "cond_endometriosis"]
+  },
+  {
+    "_id": "symp_mood_changes",
+    "key": "mood_changes",
+    "label_en": "Mood fluctuations, anxiety, or irritability",
+    "category": "emotional",
+    "synonyms": {
+      "en": [
+        "mood swings",
+        "irritability",
+        "anxiety",
+        "feeling low",
+        "emotional changes",
+        "feeling stressed",
+        "crying spells"
+      ],
+      "hi": [
+        "छोटी-छोटी बातों पर चिड़चिड़ापन होता है",
+        "मूड बहुत जल्दी बदलता है",
+        "बिना बात के रोना या उदासी आती है",
+        "मन बहुत बेचैन और उदास रहता है",
+        "गुस्सा बहुत जल्दी आ जाता है"
+      ],
+      "kn": [
+        "ತುಂಬಾ ಸಿಡುಕುತನ ಬರ್ತಿದೆ",
+        "ಮೂಡ್ ಸ್ವಿಂಗ್ಸ್ ಆಗ್ತಿದೆ",
+        "ಯಾವುದರಲ್ಲೂ ಆಸಕ್ತಿ ಇಲ್ಲ, ಬೇಸರ",
+        "ಮನಸ್ಸಿಗೆ ನೆಮ್ಮದಿ ಇಲ್ಲದಿರುವುದು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_thyroid"]
+  },
+  {
+    "_id": "symp_pelvic_pain",
+    "key": "pelvic_pain",
+    "label_en": "Pelvic or lower abdominal pain",
+    "category": "pelvic",
+    "synonyms": {
+      "en": [
+        "pelvic pain",
+        "lower tummy pain",
+        "severe menstrual cramps",
+        "ovary pain",
+        "cramping pain",
+        "dysmenorrhea"
+      ],
+      "hi": [
+        "पेट के निचले हिस्से में तेज दर्द",
+        "पीरियड्स में बहुत ज्यादा दर्द होता है",
+        "पेड़ू में मरोड़ और दर्द",
+        "पेट का दर्द बर्दाश्त नहीं होता"
+      ],
+      "kn": [
+        "ಹೊಟ್ಟೆಯ ಕೆಳಭಾಗದಲ್ಲಿ ತುಂಬಾ ನೋವು",
+        "ಮುಟ್ಟಿನ ಸಮಯದಲ್ಲಿ ತಡೆಯೋಕೆ ಆಗದಷ್ಟು ನೋವು",
+        "ಕಿಬ್ಬೊಟ್ಟೆ ನೋವು"
+      ]
+    },
+    "linked_conditions": ["cond_endometriosis", "cond_pcos"]
+  },
+  {
+    "_id": "symp_trying_to_conceive",
+    "key": "trying_to_conceive",
+    "label_en": "Fertility challenges / trying to conceive",
+    "category": "reproductive",
+    "synonyms": {
+      "en": [
+        "trying to conceive",
+        "trouble getting pregnant",
+        "fertility issues",
+        "difficulty conceiving",
+        "unable to conceive",
+        "wanting to get pregnant"
+      ],
+      "hi": [
+        "काफी समय से बच्चा प्लान कर रहे हैं पर ठहर नहीं रहा",
+        "प्रेग्नेंट होने में दिक्कत आ रही है",
+        "कंसीव नहीं हो पा रहा",
+        "गर्भ नहीं ठहर रहा",
+        "बच्चा नहीं हो रहा"
+      ],
+      "kn": [
+        "ಪ್ರೆಗ್ನೆನ್ಸಿ ಪ್ಲಾನ್ ಮಾಡ್ತಿದೀವಿ ಬಟ್ ಆಗ್ತಿಲ್ಲ",
+        "ಮಕ್ಕಳಾಗಲು ಕಷ್ಟವಾಗ್ತಿದೆ",
+        "ಗರ್ಭ ನಿಲ್ಲುತ್ತಿಲ್ಲ"
+      ]
+    },
+    "linked_conditions": ["cond_pcos", "cond_hyperprolactinemia", "cond_endometriosis"]
+  },
+  {
+    "_id": "symp_cold_intolerance",
+    "key": "cold_intolerance",
+    "label_en": "Sensitivity to cold temperatures",
+    "category": "metabolic",
+    "synonyms": {
+      "en": [
+        "feeling cold all the time",
+        "cold intolerance",
+        "cannot tolerate cold",
+        "cold hands and feet",
+        "shivering easily"
+      ],
+      "hi": [
+        "बहुत ज्यादा ठंड लगती है",
+        "गर्मी में भी हाथ पैर ठंडे रहते हैं",
+        "ठंड बिल्कुल बर्दाश्त नहीं होती",
+        "हर समय ठंड लगना"
+      ],
+      "kn": [
+        "ತುಂಬಾ ಚಳಿ ಅನಿಸುತ್ತೆ",
+        "ಕೈ ಕಾಲುಗಳು ಯಾವಾಗಲೂ ತಣ್ಣಗಿರುತ್ತವೆ",
+        "ವಿಪರೀತ ಚಳಿ ಆಗುವುದು"
+      ]
+    },
+    "linked_conditions": ["cond_thyroid"]
+  },
+  {
+    "_id": "symp_heat_intolerance",
+    "key": "heat_intolerance",
+    "label_en": "Sensitivity to heat / excessive sweating",
+    "category": "metabolic",
+    "synonyms": {
+      "en": [
+        "heat intolerance",
+        "sweating excessively",
+        "always feeling hot",
+        "cannot stand heat"
+      ],
+      "hi": [
+        "बहुत ज्यादा गर्मी और पसीना आता है",
+        "गर्मी बिल्कुल बर्दाश्त नहीं होती",
+        "हर समय पसीना छूटना"
+      ],
+      "kn": [
+        "ತುಂಬಾ ಸೆಕೆ ಅನಿಸುತ್ತೆ",
+        "ವಿಪರೀತ ಬೆವರುವುದು",
+        "ಶಾಖ ತಡೆಯಲು ಆಗಲ್ಲ"
+      ]
+    },
+    "linked_conditions": ["cond_thyroid"]
+  },
+  {
+    "_id": "symp_galactorrhea",
+    "key": "galactorrhea",
+    "label_en": "Nipple discharge (non-lactation)",
+    "category": "endocrine",
+    "synonyms": {
+      "en": [
+        "breast discharge",
+        "milky discharge from nipples",
+        "galactorrhea",
+        "fluid from breasts"
+      ],
+      "hi": [
+        "ब्रेस्ट से दूध जैसा पानी आना",
+        "निप्पल से बिना प्रेग्नेंसी के रिसाव",
+        "स्तन से तरल पदार्थ निकलना"
+      ],
+      "kn": [
+        "ಸ್ತನದಿಂದ ಹಾಲು ಅಥವಾ ದ್ರವ ಬರುವುದು",
+        "ದ್ರವ ಸೋರುವುದು"
+      ]
+    },
+    "linked_conditions": ["cond_hyperprolactinemia"]
+  },
+  {
+    "_id": "symp_sleep_issues",
+    "key": "sleep_issues",
+    "label_en": "Sleep disturbances or daytime sleepiness",
+    "category": "general",
+    "synonyms": {
+      "en": [
+        "trouble sleeping",
+        "insomnia",
+        "snoring or gasping",
+        "sleep apnea",
+        "waking up unrefreshed"
+      ],
+      "hi": [
+        "रात को ठीक से नींद नहीं आती",
+        "दिन भर नींद और सुस्ती छाई रहती है",
+        "खर्राटे आना या सांस रुकना",
+        "करवटें बदलते रहना"
+      ],
+      "kn": [
+        "ರಾತ್ರಿ ಸರಿಯಾಗಿ ನಿದ್ರೆ ಬರಲ್ಲ",
+        "ಹಗಲಿನಲ್ಲಿ ತುಂಬಾ ನಿದ್ರೆ ಬರುವುದು",
+        "ಗೊರಕೆ ಹೊಡೆಯುವುದು"
+      ]
+    },
+    "linked_conditions": ["cond_pcos"]
+  }
+]

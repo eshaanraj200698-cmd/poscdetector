@@ -1,0 +1,143 @@
+[
+  {
+    "_id": "pathway_pcos",
+    "condition": "Polycystic Ovary Syndrome (PCOS)",
+    "specialist": {
+      "primary": "Gynaecologist",
+      "secondary": "Endocrinologist or Reproductive Endocrinologist",
+      "first_line": "General Physician / Family Doctor"
+    },
+    "urgency_rules": [
+      {
+        "trigger": "cycle_gap_months >= 3 or absent_periods",
+        "level": "soon",
+        "description": "Periods absent for 3+ months or very irregular warrant timely medical consultation to protect the uterine lining."
+      },
+      {
+        "trigger": "trying_to_conceive_over_6mo",
+        "level": "soon",
+        "description": "Timely assessment can assist in ovulation tracking and cycle optimization."
+      },
+      {
+        "trigger": "mild_hirsutism_or_acne_only",
+        "level": "routine",
+        "description": "Schedule a planned consultation at your convenience to discuss hormone evaluation and symptom management."
+      }
+    ],
+    "tests": [
+      {
+        "name": "Hormone Blood Panel",
+        "description": "Tests for Total & Free Testosterone, DHEA-S, Androstenedione, and LH/FSH ratio to evaluate androgen and pituitary hormone balances.",
+        "framing": "A doctor may suggest checking specific hormone levels typically drawn in the early follicular phase."
+      },
+      {
+        "name": "Pelvic Ultrasound (Transvaginal or Pelvic)",
+        "description": "Evaluates ovarian volume and antral follicle distribution (the 'string of pearls' appearance) as well as endometrial thickness.",
+        "framing": "A healthcare provider may consider an ultrasound to review ovarian morphology."
+      },
+      {
+        "name": "Metabolic & Glucose Assessment",
+        "description": "Fasting blood glucose, fasting insulin, HbA1c, and an oral glucose tolerance test (OGTT) to assess insulin resistance.",
+        "framing": "Your clinician may recommend testing blood sugar regulation because insulin sensitivity is frequently linked."
+      },
+      {
+        "name": "Lipid Profile & Liver Function",
+        "description": "Assessing cholesterol fractions (HDL, LDL, triglycerides) and metabolic health indicators.",
+        "framing": "A routine metabolic screen may be ordered for a complete picture."
+      },
+      {
+        "name": "Thyroid (TSH) & Prolactin Differential Check",
+        "description": "TSH and Prolactin blood tests to rule out other common reasons for irregular menstrual cycles.",
+        "framing": "Doctors often order these initial tests to rule out thyroid imbalances or elevated prolactin."
+      }
+    ],
+    "questions_for_doctor": [
+      "Based on my cycle pattern and physical symptoms, would you recommend testing hormone levels or an ultrasound?",
+      "Do my symptoms suggest PCOS, or are there thyroid or other hormonal considerations we should investigate first?",
+      "What lifestyle, nutrition, or physical activity adjustments have shown benefits for my specific symptom profile?",
+      "If I am planning (or not planning) a pregnancy, how does that influence our approach to cycle regulation?",
+      "How frequently should we monitor my metabolic markers like blood sugar and cholesterol?"
+    ],
+    "things_to_note_before_visit": [
+      "Keep a log of your last 3-6 cycle start dates and duration (or months missed).",
+      "Note when you first noticed facial/body hair growth, acne flare-ups, or hair thinning.",
+      "List any medications, supplements, or oral contraceptives you are currently taking.",
+      "Jot down your family medical history (any history of irregular cycles, type 2 diabetes, or thyroid conditions in mother/sisters)."
+    ]
+  },
+  {
+    "_id": "pathway_thyroid",
+    "condition": "Thyroid Dysfunction",
+    "specialist": {
+      "primary": "Endocrinologist",
+      "secondary": "General Physician",
+      "first_line": "General Physician / Family Doctor"
+    },
+    "urgency_rules": [
+      {
+        "trigger": "severe_fatigue_or_cardiovascular_symptoms",
+        "level": "soon",
+        "description": "Unexplained extreme fatigue or temperature sensitivity benefits from a straightforward thyroid function test."
+      },
+      {
+        "trigger": "mild_weight_or_cycle_changes",
+        "level": "routine",
+        "description": "Schedule a routine visit for basic blood work."
+      }
+    ],
+    "tests": [
+      {
+        "name": "Thyroid Panel (TSH, Free T4, Free T3)",
+        "description": "Standard venipuncture test measuring pituitary thyroid stimulation and circulating thyroid hormones.",
+        "framing": "A physician may suggest a simple blood test to check how well your thyroid is working."
+      },
+      {
+        "name": "Thyroid Antibodies (Anti-TPO, Anti-Tg)",
+        "description": "Tests to identify autoimmune causes such as Hashimoto's thyroiditis.",
+        "framing": "A doctor may evaluate autoimmune markers if thyroid hormones are abnormal."
+      }
+    ],
+    "questions_for_doctor": [
+      "Could my cycle irregularities and fatigue be related to an underactive or overactive thyroid?",
+      "Would a simple TSH and Free T4 blood test be helpful to confirm or rule this out?",
+      "If thyroid hormone levels are borderline, when should we re-test?"
+    ],
+    "things_to_note_before_visit": [
+      "Track your energy levels and any sensitivity to cold or warm rooms.",
+      "Record any noticeable changes in skin dryness, constipation, or heart palpitations.",
+      "List any biotin-containing supplements (biotin can interfere with thyroid lab results)."
+    ]
+  },
+  {
+    "_id": "pathway_general",
+    "condition": "General Reproductive / Menstrual Assessment",
+    "specialist": {
+      "primary": "General Physician / Family Doctor",
+      "secondary": "Gynaecologist",
+      "first_line": "General Physician"
+    },
+    "urgency_rules": [
+      {
+        "trigger": "general_inquiry",
+        "level": "routine",
+        "description": "A routine evaluation with a trusted primary care provider is a gentle starting step."
+      }
+    ],
+    "tests": [
+      {
+        "name": "Comprehensive General Health Workup",
+        "description": "Complete blood count (CBC) to screen for anemia, basic metabolic panel, and vital sign review.",
+        "framing": "A general physician may start with routine health checks and iron levels."
+      }
+    ],
+    "questions_for_doctor": [
+      "What could be contributing to the symptoms I am feeling?",
+      "Would you recommend consulting a specialist like a gynaecologist or endocrinologist?",
+      "Are there general health screenings appropriate for my age and symptoms?"
+    ],
+    "things_to_note_before_visit": [
+      "Write down your chief symptoms and when they started.",
+      "Bring a list of all current supplements or medications."
+    ]
+  }
+]

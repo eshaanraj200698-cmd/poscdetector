@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "cond_pcos",
+    "name": "Polycystic Ovary Syndrome (PCOS)",
+    "summary_simple": "A common hormonal and metabolic condition characterized by irregular ovulation, elevated levels of androgen hormones, and/or enlarged ovaries with multiple small follicles. It is a spectrum condition that affects how the ovaries function.",
+    "criteria": [
+      {
+        "name": "Ovulatory Dysfunction",
+        "description": "Irregular periods (oligomenorrhea), absent periods (amenorrhea), or cycles lasting longer than 35 days or shorter than 21 days.",
+        "rotterdam_category": "ovulatory_dysfunction",
+        "can_self_report": true
+      },
+      {
+        "name": "Hyperandrogenism (Clinical or Biochemical)",
+        "description": "Signs of elevated male hormones (androgens), including excess facial or body hair (hirsutism), persistent cystic acne, or male-pattern hair thinning.",
+        "rotterdam_category": "hyperandrogenism",
+        "can_self_report": true
+      },
+      {
+        "name": "Polycystic Ovarian Morphology",
+        "description": "Presence of 20 or more follicles per ovary and/or ovarian volume > 10ml, observed via pelvic ultrasound by a qualified sonographer/radiologist.",
+        "rotterdam_category": "ultrasound_morphology",
+        "can_self_report": false,
+        "clinician_note": "Requires a transvaginal or transabdominal ultrasound performed by a medical professional; cannot be diagnosed by self-assessment."
+      }
+    ],
+    "related_symptoms": [
+      "irregular_cycles",
+      "missed_periods_amenorrhea",
+      "hirsutism",
+      "acne",
+      "hair_thinning",
+      "weight_gain",
+      "dark_skin_patches",
+      "trying_to_conceive",
+      "fatigue",
+      "mood_changes"
+    ],
+    "when_to_see_doctor": "If you go more than 3 months without a period, have bleeding more frequent than every 21 days, notice sudden excess hair growth or hair loss, or struggle to conceive after 6 to 12 months.",
+    "sources": [
+      "International Evidence-Based Guideline for the Assessment and Management of Polycystic Ovary Syndrome (2023 / ESHRE / ASRM)",
+      "Rotterdam ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group (2004)",
+      "American College of Obstetricians and Gynecologists (ACOG) Practice Bulletin No. 194"
+    ]
+  },
+  {
+    "_id": "cond_thyroid",
+    "name": "Thyroid Dysfunction (Hypothyroidism / Hyperthyroidism)",
+    "summary_simple": "Underactive or overactive thyroid gland regulating metabolism. An underactive thyroid often slows bodily processes, mimics PCOS cycle irregularities, and causes fatigue, weight gain, and cold sensitivity.",
+    "criteria": [
+      {
+        "name": "Biochemical Thyroid Hormone Abnormality",
+        "description": "Altered serum Thyroid Stimulating Hormone (TSH) and Free Thyroxine (FT4/FT3) levels confirmed via venipuncture blood testing.",
+        "rotterdam_category": "differential_endocrine",
+        "can_self_report": false,
+        "clinician_note": "A primary differential that must be excluded before confirming a PCOS diagnosis."
+      }
+    ],
+    "related_symptoms": [
+      "irregular_cycles",
+      "fatigue",
+      "weight_gain",
+      "hair_thinning",
+      "cold_intolerance",
+      "heat_intolerance",
+      "mood_changes",
+      "dry_skin"
+    ],
+    "when_to_see_doctor": "If you experience extreme persistent fatigue, unexplained weight changes despite normal diet, heavy or irregular periods, or noticeable intolerance to cold or heat.",
+    "sources": [
+      "American Thyroid Association (ATA) Guidelines for Thyroid Disease Management",
+      "Endocrine Society Clinical Practice Guidelines on Hypothyroidism"
+    ]
+  },
+  {
+    "_id": "cond_hyperprolactinemia",
+    "name": "Hyperprolactinemia",
+    "summary_simple": "An elevated level of the hormone prolactin in the blood. Prolactin normally stimulates breast milk production, but excess levels can suppress ovulation, causing periods to become infrequent or stop entirely.",
+    "criteria": [
+      {
+        "name": "Elevated Serum Prolactin",
+        "description": "High prolactin levels detected via laboratory blood test, which may be caused by benign pituitary microadenomas, medications, or thyroid conditions.",
+        "rotterdam_category": "differential_endocrine",
+        "can_self_report": false,
+        "clinician_note": "Essential differential to rule out in any evaluation for amenorrhea or oligomenorrhea."
+      }
+    ],
+    "related_symptoms": [
+      "irregular_cycles",
+      "missed_periods_amenorrhea",
+      "galactorrhea",
+      "headaches",
+      "vision_changes",
+      "trying_to_conceive"
+    ],
+    "when_to_see_doctor": "If you notice milky breast discharge outside of lactation, persistent new headaches, peripheral vision changes, or missed cycles.",
+    "sources": [
+      "Endocrine Society Clinical Practice Guideline on Diagnosis and Treatment of Hyperprolactinemia",
+      "ACOG Committee Opinion on Amenorrhea Evaluation"
+    ]
+  },
+  {
+    "_id": "cond_endometriosis",
+    "name": "Endometriosis / Pelvic Pathology",
+    "summary_simple": "A condition where tissue similar to the lining of the uterus grows outside the uterus, causing inflammation, significant cyclic or chronic pelvic pain, and sometimes heavy menstrual bleeding.",
+    "criteria": [
+      {
+        "name": "Chronic Pelvic Pain & Dysmenorrhea",
+        "description": "Severe pelvic pain often worsening around menstruation, during bowel movements, or with intercourse.",
+        "rotterdam_category": "differential_pelvic",
+        "can_self_report": true
+      }
+    ],
+    "related_symptoms": [
+      "pelvic_pain",
+      "heavy_bleeding",
+      "fatigue",
+      "painful_intercourse",
+      "trying_to_conceive"
+    ],
+    "when_to_see_doctor": "If menstrual pain is debilitating, prevents normal daily activities, or is accompanied by unusually heavy bleeding and pelvic cramps.",
+    "sources": [
+      "World Health Organization (WHO) Factsheet on Endometriosis",
+      "ESHRE Guideline for the Management of Endometriosis (2022)"
+    ]
+  }
+]

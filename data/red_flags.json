@@ -1,0 +1,162 @@
+[
+  {
+    "_id": "flag_heavy_bleeding_hemorrhage",
+    "name": "Excessive Menstrual Hemorrhage",
+    "pattern_keywords": {
+      "en": [
+        "soaking a pad every hour",
+        "soaking through pads in an hour",
+        "bleeding through two pads an hour",
+        "large golf-ball clots",
+        "drenching clothes in blood",
+        "cannot stop bleeding"
+      ],
+      "hi": [
+        "हर घंटे पैड बदलना पड़ रहा है",
+        "हर घंटे पैड पूरी तरह भीग रहा है",
+        "खून रुक ही नहीं रहा",
+        "बहुत बड़े-बड़े खून के थक्के आ रहे हैं",
+        "कपड़े खून से भीग रहे हैं",
+        "ब्लीडिंग बंद नहीं हो रही"
+      ],
+      "kn": [
+        "ಪ್ರತಿ ಗಂಟೆಗೆ ಪ್ಯಾಡ್ ಬದಲಾಯಿಸುವುದು",
+        "ಗಂಟೆಗೊಮ್ಮೆ ಪ್ಯಾಡ್ ನೆನೆಯುತ್ತಿದೆ",
+        "ರಕ್ತ ನಿಲ್ಲುತ್ತಲೇ ಇಲ್ಲ",
+        "ದೊಡ್ಡ ರಕ್ತದ ಹೆಪ್ಪುಗಟ್ಟುವಿಕೆ"
+      ]
+    },
+    "message": {
+      "en": "Soaking through a sanitary pad or tampon every hour for two or more consecutive hours requires immediate medical evaluation to prevent acute blood loss.",
+      "hi": "अगर हर घंटे पैड पूरी तरह भीग रहा है या खून रुक नहीं रहा, तो यह अत्यधिक ब्लीडिंग है। कृपया बिल्कुल देर न करें, तुरंत किसी नजदीकी डॉक्टर या अस्पताल की इमरजेंसी में जाएं।",
+      "kn": "ಸತತ ಎರಡು ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಗಂಟೆಗಳ ಕಾಲ ಪ್ರತಿ ಗಂಟೆಗೆ ಪ್ಯಾಡ್ ನೆನೆಯುತ್ತಿದ್ದರೆ ಇದು ಅತಿಯಾದ ರಕ್ತಸ್ರಾವದ ಸಂಕೇತವಾಗಿದೆ. ದಯವಿಟ್ಟು ತಕ್ಷಣವೇ ಆಸ್ಪತ್ರೆಗೆ ಭೇಟಿ ನೀಡಿ."
+    },
+    "action": "urgent_emergency_care"
+  },
+  {
+    "_id": "flag_severe_pelvic_pain_acute_abdomen",
+    "name": "Acute Severe Pelvic / Abdominal Pain",
+    "pattern_keywords": {
+      "en": [
+        "severe pelvic pain",
+        "sudden unbearable pain",
+        "agonizing stomach pain",
+        "screaming in pain",
+        "doubled over in pain",
+        "sudden sharp abdominal pain"
+      ],
+      "hi": [
+        "असहनीय पेट दर्द",
+        "पेट में अचानक बहुत तेज दर्द",
+        "दर्द बर्दाश्त से बाहर है",
+        "तड़पा देने वाला पेट दर्द",
+        "तेज पेल्विक दर्द"
+      ],
+      "kn": [
+        "ತೀವ್ರ ಅಸಹನೀಯ ಹೊಟ್ಟೆ ನೋವು",
+        "ಕಿಬ್ಬೊಟ್ಟೆಯಲ್ಲಿ ತಡೆಯಲಾರದ ನೋವು",
+        "ಧಿಡೀರ್ ತೀವ್ರ ನೋವು"
+      ]
+    },
+    "message": {
+      "en": "Sudden, excruciating, or worsening pelvic pain can indicate ovarian torsion, a ruptured cyst, or acute appendicitis and requires emergency medical care.",
+      "hi": "पेट या पेल्विक हिस्से में अचानक बहुत तेज या असहनीय दर्द उठना सिस्ट फटने या किसी गंभीर इमरजेंसी का संकेत हो सकता है। तुरंत इमरजेंसी डॉक्टर को दिखाएं।",
+      "kn": "ಧಿಡೀರ್ ಅಥವಾ ಅಸಹನೀಯವಾದ ಕಿಬ್ಬೊಟ್ಟೆ ನೋವು ಅಂಡಾಶಯದ ತಿರುಚುವಿಕೆ ಅಥವಾ ಸಿಸ್ಟ್ ಒಡೆಯುವಿಕೆಯ ಲಕ್ಷಣವಾಗಿರಬಹುದು. ದಯವಿಟ್ಟು ತಕ್ಷಣ ತುರ್ತು ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ."
+    },
+    "action": "urgent_emergency_care"
+  },
+  {
+    "_id": "flag_syncope_fainting",
+    "name": "Fainting, Dizziness, or Collapse",
+    "pattern_keywords": {
+      "en": [
+        "fainted",
+        "fainting",
+        "passed out",
+        "blacked out",
+        "feeling very dizzy and weak with bleeding",
+        "loss of consciousness"
+      ],
+      "hi": [
+        "बेहोश हो गई",
+        "चक्कर खाकर गिर पड़ी",
+        "आंखों के आगे अंधेरा छा गया",
+        "कमजोरी से चक्कर आ रहे हैं",
+        "चक्कर आकर बेहोश होना"
+      ],
+      "kn": [
+        "ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು",
+        "ಮೂರ್ಛೆ ಹೋಗುವುದು",
+        "ತಲೆ ತಿರುಗಿ ಬಿದ್ದುಹೋಗುವುದು",
+        "ಕಣ್ಣು ಕತ್ತಲೆ ಕಟ್ಟುವುದು"
+      ]
+    },
+    "message": {
+      "en": "Fainting or severe lightheadedness alongside bleeding or severe pain suggests significant blood volume loss or shock. Please seek immediate emergency medical care.",
+      "hi": "ब्लीडिंग या तेज दर्द के साथ चक्कर आना या बेहोश हो जाना शरीर में कमजोरी या शॉक का लक्षण है। बिना देर किए तुरंत अस्पताल जाएं।",
+      "kn": "ರಕ್ತಸ್ರಾವ ಅಥವಾ ನೋವಿನೊಂದಿಗೆ ತಲೆತಿರುಗಿ ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು ಗಂಭೀರ ಸ್ಥಿತಿಯಾಗಿದೆ. ತಕ್ಷಣ ತುರ್ತು ಚಿಕಿತ್ಸಾ ವಿಭಾಗಕ್ಕೆ ತೆರಳಿ."
+    },
+    "action": "urgent_emergency_care"
+  },
+  {
+    "_id": "flag_pregnancy_bleeding_ectopic",
+    "name": "Pregnancy with Pain or Bleeding (Ectopic Risk)",
+    "pattern_keywords": {
+      "en": [
+        "pregnant and bleeding",
+        "positive pregnancy test with pain",
+        "pregnant with severe cramping",
+        "ectopic suspicion",
+        "pregnant spotting with shoulder pain"
+      ],
+      "hi": [
+        "प्रेग्नेंट हूं और ब्लीडिंग हो रही है",
+        "प्रेग्नेंसी टेस्ट पॉजिटिव है और तेज दर्द है",
+        "प्रेग्नेंसी में पेट में मरोड़ और खून"
+      ],
+      "kn": [
+        "ಗರ್ಭಿಣಿಯಾಗಿದ್ದು ರಕ್ತಸ್ರಾವವಾಗುತ್ತಿದೆ",
+        "ಪ್ರೆಗ್ನೆನ್ಸಿ ಟೆಸ್ಟ್ ಪಾಸಿಟಿವ್ ಜೊತೆಗೆ ತೀವ್ರ ನೋವು",
+        "ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ರಕ್ತ ಹೋಗುವುದು"
+      ]
+    },
+    "message": {
+      "en": "Bleeding or abdominal pain during known or suspected pregnancy requires immediate emergency evaluation to rule out ectopic pregnancy or complications.",
+      "hi": "प्रेग्नेंसी के दौरान किसी भी तरह की ब्लीडिंग या पेट दर्द में तुरंत इमरजेंसी जांच करानी चाहिए ताकि एक्टोपिक प्रेग्नेंसी या किसी खतरे से बचा जा सके।",
+      "kn": "ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ರಕ್ತಸ್ರಾವ ಅಥವಾ ನೋವು ಕಾಣಿಸಿಕೊಂಡರೆ ಎಕ್ಟೋಪಿಕ್ ಗರ್ಭಧಾರಣೆಯ ಸಾಧ್ಯತೆಯನ್ನು ಪರೀಕ್ಷಿಸಲು ತುರ್ತಾಗಿ ಆಸ್ಪತ್ರೆಗೆ ಹೋಗಬೇಕು."
+    },
+    "action": "urgent_emergency_care"
+  },
+  {
+    "_id": "flag_self_harm_crisis",
+    "name": "Self-harm or Severe Psychiatric Crisis",
+    "pattern_keywords": {
+      "en": [
+        "want to end my life",
+        "suicidal",
+        "kill myself",
+        "thoughts of self-harm",
+        "harming myself",
+        "dont want to live"
+      ],
+      "hi": [
+        "खुद को नुकसान पहुंचाने का मन",
+        "जान देने का मन करता है",
+        "जीने की इच्छा नहीं रही",
+        "आत्महत्या के विचार"
+      ],
+      "kn": [
+        "ಆತ್ಮಹತ್ಯೆಯ ಆಲೋಚನೆ",
+        "ಜೀವ ಕಳೆದುಕೊಳ್ಳುವ ಯೋಚನೆ",
+        "ನನಗೆ ಬದುಕಲು ಇಷ್ಟವಿಲ್ಲ",
+        "ನನ್ನನ್ನು ನಾನೇ ಗಾಯಗೊಳಿಸಿಕೊಳ್ಳುವುದು"
+      ]
+    },
+    "message": {
+      "en": "If you are experiencing thoughts of self-harm or deep distress, please reach out right now. Free, confidential support is available 24/7 (KIRAN Helpline: 1800-599-0019 in India; Tele-MANAS: 14416; or 988 in the US/Canada).",
+      "hi": "अगर आप बहुत ज्यादा तनाव या खुद को नुकसान पहुंचाने के ख्यालों से परेशान हैं, तो कृपया तुरंत बात करें। भारत में किरण हेल्पलाइन 1800-599-0019 या टेली-मानस 14416 पर 24/7 मुफ्त और गोपनीय मदद उपलब्ध है।",
+      "kn": "ನೀವು ತೀವ್ರ ಮಾನಸಿಕ ಸಂಕಷ್ಟದಲ್ಲಿದ್ದರೆ ಅಥವಾ ನೋವು ಅನುಭವಿಸುತ್ತಿದ್ದರೆ, ದಯವಿಟ್ಟು ತಕ್ಷಣ ಸಹಾಯ ಪಡೆಯಿರಿ. ಟೆಲಿ-ಮಾನಸ್ 14416 ಅಥವಾ ಕಿರಣ್ ಸಹಾಯವಾಣಿ 1800-599-0019 (24/7 ಉಚಿತ ಮತ್ತು ಗೌಪ್ಯ)."
+    },
+    "action": "immediate_crisis_helpline"
+  }
+]

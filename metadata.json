@@ -1,0 +1,6 @@
+{
+  "name": "SakhiCheck",
+  "description": "Safe, culturally sensitive women's health symptom-understanding and PCOS pattern analysis companion for English, Hindi, and Kannada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
